@@ -3,32 +3,32 @@ Goto `/` for general information, goto `/{apiname}/help` for help with specific 
 
 
 ## API list:
-translate: Translate text.
+`translate`: Translate text.
 
-google: Google search text and get a JSON response.
+`google`: Google search text and get a JSON response.
 
-emoji: Emojify strings that contain stuff like ':heart:'. Supports multiple endpoints
+`emoji`: Emojify strings that contain stuff like ':heart:'. Supports multiple endpoints
 
-beautify: Beautify code using prettier.
+`beautify`: Beautify code using prettier.
 
-uuid: Generate uuids in bulk (up to 5000 a request)
+`uuid`: Generate uuids in bulk (up to 5000 a request)
 
-markdown: Convert html or markdown to markdown or html.
+`markdown`: Convert html or markdown to markdown or html.
 
-randexp: Generate a string that matches a regular expression.
+`randexp`: Generate a string that matches a regular expression.
 
-image-search: Searches google images for a query, also supports direct linking to the 1st search result.
+`image-search`: Searches google images for a query, also supports direct linking to the 1st search result.
 
-dictionary: Searches for a word in the dictionary.
+`dictionary`: Searches for a word in the dictionary.
 
-autocomplete: Autocompletes the 'q' param using google autocomplete engine.
+`autocomplete`: Autocompletes the 'q' param using google autocomplete engine.
 
-diff: Calculates the difference between the 'one' and 'two' query strings.
+`diff`: Calculates the difference between the 'one' and 'two' query strings.
 
-link-preview: Gets information about a link.
+`link-preview`: Gets information about a link.
 
-follow-redirect: Follows redirects that req.query.q redirects to.
+`follow-redirect`: Follows redirects that req.query.q redirects to.
 
-news-search: Searches news in New York Times.
+`news-search`: Searches news in New York Times.
 
-ip: Gets information about the given IP or the sender's ip.
+`ip`: Gets information about the given IP or the sender's ip.
