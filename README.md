@@ -4,7 +4,7 @@ Goto `/` for general information, goto `/{apiname}/help` for help with specific 
 
 #API list:
 ---
-translate: Translate text.
+translate: Translate text.\n
 google: Google search text and get a JSON response.
 emoji: Emojify strings that contain stuff like ':heart:'. Supports multiple endpoints
 beautify: Beautify code using prettier.
