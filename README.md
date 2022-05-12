@@ -4,8 +4,11 @@ Goto `/` for general information, goto `/{apiname}/help` for help with specific 
 
 ## API list:
 translate: Translate text.
+
 google: Google search text and get a JSON response.
+
 emoji: Emojify strings that contain stuff like ':heart:'. Supports multiple endpoints
+
 beautify: Beautify code using prettier.
 uuid: Generate uuids in bulk (up to 5000 a request)
 markdown: Convert html or markdown to markdown or html.
