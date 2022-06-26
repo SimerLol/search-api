@@ -2,7 +2,7 @@ module.exports = (app) => {
 	const fetch = require("node-fetch");
 	const cors = require('cors');
 	let ids = [process.env.wolfram1, process.env.wolfram2, process.env.wolfram3, process.env.wolfram4, process.env.wolfram5];
-	app.get("/quick-answer", cors({origin: 'https://google.explosionscratc.repl.co'}), async (req, res) => {
+	app.get("/quick-answer", cors({origin: 'https://search.simerlol.repl.co'}), async (req, res) => {
 		id = ids[Math.floor(Math.random() * ids.length)]
 		try {
 			var data = await fetch('https://api.wolframalpha.com/v1/result?i='+escape(req.query.q)+'&appid='+id+'&format=plaintext');
